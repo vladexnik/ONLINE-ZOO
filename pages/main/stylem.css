@@ -1,0 +1,121 @@
+    *,
+    *:after,
+    *:after {
+        box-sizing: border-box;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    img,
+    ul,
+    a {
+        margin: 0 0;
+        padding: 0 0;
+    }
+    
+    .pre {
+        line-height: 0;
+    }
+    
+    .body {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 0 10px;
+        max-width: 1620px;
+    }
+    
+    .container {
+        position: relative;
+        max-width: 1600px;
+        padding: 0 0;
+        margin: 0 10px;
+    }
+    
+    .header_inner {
+        position: absolute;
+        width: 1600px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        background: black;
+        backdrop-filter: blur(2px);
+    }
+    
+    .back {
+        background-image: url("../../assets/images/panda.png");
+    }
+    
+    .header_inner {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu_list {
+        display: flex;
+        position: relative;
+        left: 365px;
+    }
+    
+    .menu_link,
+    .logo,
+    .designBy {
+        font-weight: 500;
+        line-height: 140%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 220px;
+        line-height: 120%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 3.55px 4.75px;
+        border: 1px solid #FFFFFF;
+        border-radius: 2px;
+    }
+    
+    .logo_bamboo {
+        position: relative;
+    }
+    
+    .bamboo {
+        position: absolute;
+        width: 7.03px;
+        height: 20.98px;
+        left: 6.23px;
+        top: 18.44px;
+    }
+    
+    .designBy {
+        position: absolute;
+        right: 220px;
+    }
+    
+    .menu_link:hover {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        transition: all 0.3s;
+    }
+    
+    .menu_item+.menu_item {
+        margin-left: 58px;
+    }
+    
+    .elipse {
+        position: absolute;
+        left: calc(50% - 465px/2 + 239.5px);
+        top: 92px;
+    }
